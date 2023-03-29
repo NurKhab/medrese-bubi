@@ -11,11 +11,32 @@
 <body>
     <a href="#" id="scroll-top" class="fas fa-arrow-circle-up"></a>
 
+    <select name="Language Control" class="lang">
+        <option value="ru" selected>Рус</option>
+        <option value="tat">Тат</option>
+        <option value="en">Eng</option>
+    </select>
+
     <div class="wrapper">
-        <header class="header">
+        <header class="header noselect">
+            <div class="header__line"></div>
+
+            <div class="header__block">
+                <ul class="header__block-list">
+                    <li><a href="#" class="header__block-link lng-link-1"></a></li>
+                    <li><a href="#" class="header__block-link lng-link-2"></a></li>
+                </ul>
+                <div class="header__block-title lng-title"></div>
+                <ul class="header__block-list">
+                    <li><a href="#" class="header__block-link lng-link-3"></a></li>
+                    <li><a href="#" class="header__block-link lng-link-4"></a></li>
+                </ul>
+            </div>
+
+            <a href="#main"><i class="fa-solid fa-circle-down"></i></a>
             
         </header>
-        <main class="main">
+        <main id="main" class="main">
             
         </main>
         <footer class="footer">
@@ -23,6 +44,12 @@
         </footer>
 
         <script src="js/app.js"></script>
+
+        
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://kit.fontawesome.com/6c0ad7ea8a.js" crossorigin="anonymous"></script>
+<script src="js/app.min.js"></script>
     </div>
 </body>
 </html>
