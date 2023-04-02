@@ -23,33 +23,81 @@
 
             <div class="header__block">
                 <ul class="header__block-list">
-                    <li><a href="#" class="header__block-link lng-link-1"></a></li>
-                    <li><a href="#" class="header__block-link lng-link-2"></a></li>
+                    <li><a href="#history" class="header__block-link lng-link-1"></a></li>
+                    <li><a href="#founders" class="header__block-link lng-link-2"></a></li>
                 </ul>
                 <div class="header__block-title lng-title"></div>
                 <ul class="header__block-list">
-                    <li><a href="#" class="header__block-link lng-link-3"></a></li>
-                    <li><a href="#" class="header__block-link lng-link-4"></a></li>
+                    <li><a href="#facts" class="header__block-link lng-link-3"></a></li>
+                    <li><a href="#gallery" class="header__block-link lng-link-4"></a></li>
                 </ul>
             </div>
 
             <a href="#main"><i class="fa-solid fa-circle-down"></i></a>
             
         </header>
-        <main id="main" class="main">
-            
-        </main>
-        <footer class="footer">
-            
-        </footer>
 
-        <script src="js/app.js"></script>
-
-        
+        <div class="bg">
+            <main id="main" class="main">
+                <div id="history" class="main__block block">
+                    <div class="block__title lng-title-block-1 noselect"></div>
+                    <div class="block__text-div">
+                        <div class="block__text-div-text lng-text-block-1"></div>
+                        <img src="./img/gallery/01.png" class="block__text-div-photo" alt="Медресе">
+                    </div>
+                </div>
+                <div id="founders" class="main__block block">
+                    <div class="block__title lng-title-block-2 noselect"></div>
+                    <div class="block__text-div">
+                        <div class="block__text-div-text lng-text-block-2"></div>
+                        <img src="./img/gallery/02.png" class="block__text-div-photo" alt="Медресе">
+                    </div>
+                </div>
+                <div id="facts" class="main__block block">
+                    <div class="block__title lng-title-block-3 noselect"></div>
+                    <div class="block__text-div">
+                        <div class="block__text-div-text lng-text-block-3"></div>
+                        <img src="./img/gallery/03.png" class="block__text-div-photo" alt="Медресе">
+                    </div>
+                </div>
+                <div id="gallery" class="main__block block">
+                    <div class="block__title lng-title-block-4 noselect"></div>
+                    <div class="gallery"></div>
+                </div>
+            </main>
+    
+            <footer class="footer noselect">
+    <div class="footer__line"></div>
+    <div class="footer__title lng-footer"></div>
+    <ul class="footer__contacts-container noselect">
+        <li><a href="#tg" class="popup-link"><img src="img/contacts/Tg.png" alt="Telegram" width="55%"></a></li>
+        <li><a href="#email" class="popup-link"><img src="img/contacts/Gmail.png" alt="Gmail" width="55%"></a></li>
+    </ul>
+</footer>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://kit.fontawesome.com/6c0ad7ea8a.js" crossorigin="anonymous"></script>
 <script src="js/app.min.js"></script>
+        <div class="popups">
+    <div id="tg" class="popup">
+        <div class="popup__body">
+          <div id="popup_c" class="popup__content">
+            <a href="#tab_01" class="popup__close close-popup"><i class="fas fa-times"></i></a>
+            <div class="popup__text"><!--<i class="fab fa-telegram-plane popup-icon" alt="Telegram"></i>--> <span>@NurKhabib</span></div>
+          </div>
+        </div>
+    </div>  
+
+      <div id="email" class="popup">
+        <div class="popup__body">
+          <div id="popup_c" class="popup__content">
+            <a href="#tab_01" class="popup__close close-popup"><i class="fas fa-times"></i></a>
+            <div class="popup__text"><span>nurkhab1610@gmail.com</span></div>
+          </div>
+        </div>
+      </div>
+</div>
     </div>
 </body>
 </html>
