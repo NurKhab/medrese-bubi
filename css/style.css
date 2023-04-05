@@ -331,6 +331,9 @@
     border-radius: 10px;
     top: 10px;
   }
+  .block__text-div-grid {
+    display: block;
+  }
 }
 .footer {
   grid-area: footer;
